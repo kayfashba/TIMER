@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    background-image: url(./photo_2025-03-20_12-07-14.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.time {
+    display: flex;
+    gap: 85px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.btn {
+    margin-top: 20px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 350px;
+    height: 40px;
+}
+input::placeholder{
+    color: white;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.404);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 140px;
+    height: 60px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    transition: 1.1s;
+}
+.text{
+    display: flex;
+    gap: 30px;
+}
